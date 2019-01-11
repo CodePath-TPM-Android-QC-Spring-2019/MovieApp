@@ -6,13 +6,18 @@ Time spent: **a week** hours spent in total
 
 ## User Stories
 
-The following **required** functionality is completed:
-
 * [x] The app shows all the lastest movies currently playing in theaters if the mobile device has network
 * [x] The movies are sorted by ratings from in descending order
 * [x] If there is no connection, the app only shows lastest movies loaded to the mobile device when the last time it was opened.
 * [x] If there is no connection, the app will also send the message to the user that the mobile device is not connected to the network
 * [x] The user can swipe down to refresh to update for lastest movies.
+
+* [x] Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+
+* [x] Allow video posts to be played in full-screen using the YouTubePlayerView (2 points)
+
+    * [x] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
+    * [x] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube 
 
 ## Video Walkthrough
 
